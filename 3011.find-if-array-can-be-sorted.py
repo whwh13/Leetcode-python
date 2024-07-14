@@ -19,5 +19,3 @@ class Solution:
             if ii<max_last:
                 return False
         return True
-nums = [20,16]
-print(Solution().canSortArray(nums))
