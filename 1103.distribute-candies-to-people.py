@@ -27,8 +27,3 @@ class Solution:
                 share[ii-1] += candies
                 candies = 0
         return share
-    
-candidates = 10
-num_people = 3
-s=Solution()
-print(s.distributeCandies(candidates,num_people))
